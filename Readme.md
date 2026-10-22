@@ -4,9 +4,9 @@
 
 **Free, structured system design notes for interviews: core concepts, 25+ worked design problems, diagrams, and chapter-wise notes from Alex Xu's *System Design Interview* Vol I & II.**
 
-[![GitHub stars](https://img.shields.io/github/stars/divyadhimaan/high-level-design?style=social)](https://github.com/divyadhimaan/high-level-design/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/divyadhimaan/high-level-design?style=social)](https://github.com/divyadhimaan/high-level-design/network/members)
-[![Last commit](https://img.shields.io/github/last-commit/divyadhimaan/high-level-design)](https://github.com/divyadhimaan/high-level-design/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/divyadhimaan/system-design?style=social)](https://github.com/divyadhimaan/system-design/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/divyadhimaan/system-design?style=social)](https://github.com/divyadhimaan/system-design/network/members)
+[![Last commit](https://img.shields.io/github/last-commit/divyadhimaan/system-design)](https://github.com/divyadhimaan/system-design/commits/main)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 [Concepts](#concepts) •
@@ -191,7 +191,7 @@ Books & courses referred to while learning:
 
 This is a personal learning repo, but contributions are welcome!
 
-- Spotted a mistake or have a better explanation? [Open an issue](https://github.com/divyadhimaan/high-level-design/issues) or a PR.
+- Spotted a mistake or have a better explanation? [Open an issue](https://github.com/divyadhimaan/system-design/issues) or a PR.
 - Want a problem covered? Open an issue with the problem name.
 
 If this repo helped you, consider giving it a ⭐. It helps others discover it.
