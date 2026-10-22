@@ -105,7 +105,7 @@
 - This added complexity makes maintenance, debugging, and updates more difficult and costly.
 
 ### Latency vs. Throughput
-- Lowering latency may reduce maximum throughput, while optimizing for [throughput](./../Readme.md#throughput) can increase [latency](./../Readme.md#latency).
+- Lowering latency may reduce maximum throughput, while optimizing for [throughput](./glossary.md#throughput) can increase [latency](./glossary.md#latency).
 - System design must prioritize the metric that aligns best with business requirements.
 
 ### Data Partitioning Trade-offs

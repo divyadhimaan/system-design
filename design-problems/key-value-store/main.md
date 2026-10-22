@@ -62,7 +62,7 @@
 
 #### CAP Theorem
 
-Refer [here](./../../Readme.md#cap-theorem-brewers-theorem)
+Refer [here](../../concepts/glossary.md#cap-theorem-brewers-theorem)
 
 ### System Components and Techniques
 

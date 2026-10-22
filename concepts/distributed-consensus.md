@@ -4,8 +4,8 @@
 - [Consistency Levels](./consistency.md#consistency-levels)
 - [Quorum](./consistency.md#quorum)
 - [Transaction Isolation Levels](./consistency.md#isolation-levels)
-- [CAP Theorem](./../Readme.md#cap-theorem-brewers-theorem)
-- [ACID Properties](./../Readme.md#acid-properties)
+- [CAP Theorem](./glossary.md#cap-theorem-brewers-theorem)
+- [ACID Properties](./glossary.md#acid-properties)
 
 ## Two Phase Commit
 
