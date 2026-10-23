@@ -108,24 +108,9 @@ Response:
 
 ### High Level Architecture
 
-```
-                     ┌──────────────┐
-         User ──────▶│Load Balancer │
-                     └──────┬───────┘
-          /search/nearby    │     /businesses/{:id}
-              ┌─────────────┴──────────────┐
-              ▼                            ▼
-   ┌─────────────────────┐       ┌──────────────────┐
-   │ Location-Based      │       │ Business Service │
-   │ Service (LBS)       │       └────────┬─────────┘
-   └─────────┬───────────┘                │ writes
-             │ reads                      ▼
-             │                  ┌────────────────────┐
-             └─────────────────▶│ DB Cluster         │
-                                │ Primary (writes)   │
-                                │ Replicas (reads)   │
-                                └────────────────────┘
-```
+<p align="center">
+  <img src="../../images/proximity-service/high-level-architecture.png" alt="Proximity service high level architecture" width="700"/>
+</p>
 
 #### Load Balancer
 - Distributes traffic across services based on API path.
@@ -158,6 +143,10 @@ Response:
 ### Option 1: Two-dimensional search
 
 - Draw a circle with the radius and find all businesses within it.
+
+<p align="center">
+  <img src="../../images/proximity-service/two-dimensional-search.png" alt="Two-dimensional search" width="800"/>
+</p>
 
 ```sql
 SELECT business_id, latitude, longitude
